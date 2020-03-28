@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+.headerPortfolio .leftSide {
+  /*display: inline-block;
+    background-color: #111;
+    width: 61.8vw; */
+  display: inline-block;
+  height: 158px;
+}
+
+.headerPortfolio .leftSide img {
+  display: inline-block;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  width: 128px;
+  width: 128px;
+  border-radius: 50%;
+}
+
+.headerPortfolio .leftSide .floatingShortBio {
+  width: 300px;
+  display: inline-block;
+  position: absolute;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 20px;
+  left: 158px;
+  top: 30px;
+}
+
+.headerPortfolio .rightSide {
+  width: 102px;
+  background-color: #fa8231;
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  height: 38px;
+  padding: 60px;
+  /* TODO change to margin */
+}
+
+.headerPortfolio .rightSide div {
+  float: left;
+  margin: 8.5px;
+  height: 17px;
+}
+
+section div {
+  margin: 30px;
+}
+/*# sourceMappingURL=style.css.map */
